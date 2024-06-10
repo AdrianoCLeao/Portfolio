@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(8, 8, 9);
+    font-family: "Nunito";
+    overflow: hidden;
+}
+
+.text{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.text h1{
+    font-size: 112px;
+    text-shadow: 5px 5px 30px rgba(255, 255, 255, 0.666);
+}
+
+.text p{
+    font-size: 32px;
+}
+
+#gradient {
+    background: radial-gradient(#b300ff9e, rgb(8, 8, 9) 70%);
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    left: -500px;
+    top: -500px;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: -1;
+}
+#gradient.visible {
+    opacity: 0.25;
+}
