@@ -7,16 +7,21 @@
     <title>On work</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <model-viewer id="model" src="./thefuture.glb" autoplay auto-rotate shadow-intensity="0.7" exposure="1"
+        reveal="auto" camera-target="0m 0m 0m"></model-viewer>
     <div class="text">
         <h1>The Future</h1>
         <p>This page is a work in progress</p>
     </div>
     <div id="gradient"></div>
 </body>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <script src="app.js"></script>
 
 </html>
