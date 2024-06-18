@@ -1,18 +1,46 @@
-# [Global: HTML5 website template](http://buckymaler.com/global)
+# Adriano Leão - Portfolio
 
-### [Featured on Freebiesbug](http://freebiesbug.com/psd-freebies/global-futuristic-one-page-portfolio-psd-html/)
+This is the repository for my personal portfolio, showcasing my projects and skills. The portfolio is available at [adrianoleao.com](https://adrianoleao.com).
 
-Global is a modern and sleek website template crafted for professionals in the creative industry. Global can serve as a single page portfolio or be easily modified to serve as the perfect beginning for a hip creative agency.
+## Technologies Used
 
-The original PSD is included and was provided by [Sergey Melnik](https://www.behance.net/SergeyMelnik).
+- **HTML5**: For structuring the content.
+- **Sass**: For efficient and modular CSS styling.
+- **jQuery**: For simplifying DOM manipulation.
+- **Hammer.js**: For touch gesture recognition.
 
-This project was developed with HTML5, Sass, jQuery, and Hammer.js.
+## Features
 
-Performance basics are covered: assets are minified into single CSS and JS files, and the images are optimized.
+- "About Me" section with personal and professional details.
+- Project gallery with descriptions and links to repositories and live demos.
+- Skills and technical competencies section.
+- Contact form for visitors to reach out directly.
+- Responsive design for an optimal experience on mobile and desktop devices.
+- Smooth animations and interactions using jQuery and Hammer.js.
 
-[LIVE PREVIEW](http://buckymaler.com/global)
+## Installation
 
-## Misc:
+To run this project locally, follow these steps:
 
-* Follow Bucky: [Twitter](https://twitter.com/BuckyMaler), [GitHub](https://github.com/BuckyMaler)
-* Follow Sergey: [Dribbble](https://dribbble.com/sergeymelnik), [Bēhance](https://www.behance.net/SergeyMelnik)
+
+### Clone the repository to your local environment
+```bash
+git clone https://github.com/AdrianoCLeao/Portfolio.git
+```
+### Navigate to the project directory
+```bash
+cd adrianoleao-portfolio
+```
+
+### (Optional) Install Node.js dependencies to compile Sass
+```bash
+npm install
+```
+
+### (Optional) Compile Sass to CSS
+```bash
+npm run sass
+```
+
+### Open the index.html file in your browser to view the portfolio 
+
