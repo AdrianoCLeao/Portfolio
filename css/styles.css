@@ -105,7 +105,7 @@
    * color-3(#FEF5E4)
    */
 	--color-1: hsla(35, 87%, 49%, 1);
-	--color-2: hsla(127, 8%, 22%, 1);
+	--color-2: hsl(127, 8%, 22%);
 	--color-3: hsl(40, 92%, 95%);
 
 	/* theme color variations
@@ -466,12 +466,12 @@ section {
 
 ::-webkit-scrollbar-thumb {
 	border-radius: 0.3rem;
-	background: #456142;
+	background: #2d352e;
 	transition: all 0.5s ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #031802d0;
+	background: #181d19f5;
 }
 
 ::-webkit-scrollbar-track {
@@ -1443,8 +1443,7 @@ blockquote cite a:visited {
 
 .item {
 	flex-shrink: 0;
-	background-color: goldenrod;
-	border: 4px solid whitesmoke;
+	border: 2px solid whitesmoke;
 	border-radius: 1rem;
 	aspect-ratio: 2/3;
 	height: 20vmax;
