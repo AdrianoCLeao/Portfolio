@@ -249,7 +249,7 @@
             window.mcStatus = form.querySelector('.mc-status');
             window.mcStatus.classList.remove('error-message', 'success-message')
             window.mcStatus.innerText = 'Submitting...';
-
+ 
             // Insert script tag into the DOM
             ref.parentNode.insertBefore( script, ref );
 
