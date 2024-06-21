@@ -17,12 +17,13 @@
     ================================================== -->
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- favicons
     ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon.png">
     <link rel="manifest" href="site.webmanifest">
 
 </head>
@@ -56,7 +57,7 @@
                 <div class="s-header__block">
                     <div class="s-header__logo">
                         <a class="logo" href="index.html">
-                            <img src="images/logo.svg" alt="Homepage">
+                            <img src="images/logo.png" alt="Homepage">
                         </a>
                     </div>
 
@@ -69,6 +70,7 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Projects</a></li>
                         <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">English</a></li>
                     </ul> <!-- s-header__menu-links -->
 
                     <div class="s-header__contact">
@@ -93,7 +95,7 @@
                 <div class="row s-intro__content width-sixteen-col">
 
                     <div class="column lg-12 s-intro__content-inner grid-block">
-                        
+
                         <div class="s-intro__content-text">
                             <div class="s-intro__content-pretitle text-pretitle">Hello, I'm Adriano</div>
                             <h1 class="s-intro__content-title">
@@ -104,21 +106,24 @@
                             </h1>
                         </div> <!-- s-intro__content-text -->
 
-                        <div class="s-intro__content-media"> 
-                            <div class="s-intro__content-media-inner">                               
-                                <img src="images/intro-bg.jpg" srcset="images/intro-bg.jpg 1x, images/intro-bg@2x.jpg 2x" alt="">
-                                <div class="lines">                               
-                                    <span></span>                                  
-                                </div>
-                            </div>
-                        </div> <!-- s-intro__content-media -->                      
+                        <div class="s-intro__content-media grid">
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                        </div>                     
 
                         <div class="s-intro__scroll-down">
-                            <a href="#about" class="smoothscroll">
+                            <a href="#expertise" class="smoothscroll">
                                 <div class="scroll-icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#97b34a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="7 13 12 18 17 13"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
                                 </div>
-                                <span>Scroll for more</span>
+                                <span>Discover Projects</span>
                             </a>
                         </div> <!-- s-intro__scroll-down -->
                         
@@ -137,7 +142,7 @@
 
                         <img src="images/geometric_shape.svg" alt="" class="s-about__content-imgbg">
 
-                        <div class="section-header grid-section-split__header">
+                        <div data-aos="slide-right" data-aos-duration="2200"class="section-header grid-section-split__header">
                             <div class="text-pretitle">About</div>                           
                             <h2 class="text-display-title">
                             An inspiring headline about yourself.
@@ -145,7 +150,7 @@
                         </div> <!-- end section-header -->
 
                         <div class="s-about__content-main grid-section-split__primary">
-                            <p class="attention-getter">
+                            <p data-aos="slide-left" data-aos-duration="2200" class="attention-getter">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam 
                             ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam 
@@ -153,25 +158,17 @@
                             iure, eos consequatur est deleniti cum id aliquid neque.
                             </p>
 
-                            <p class="attention-getter">
+                            <p data-aos="slide-left" data-aos-duration="2200"  data-aos-delay="100" class="attention-getter">
                             Autem tenetur commodi maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit.  
                             Est eligendi fugit, facilis velit reiciendis iure laudantium. Praesentium repellat 
                             corrupti dolor sit sint obcaecati. Modi aut quo molestiae a explicabo maiores necessitatibus 
                             nemo repellendus architecto? Corrupti numquam ullam nostrum, eveniet at doloribus blanditiis 
                             aliquid a est porro aspernatur pariatur culpa soluta nesciunt odio quasi maxime debitis illum.
                             </p>
-
-                            <p class="attention-getter">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam 
-                            ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam 
-                            fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos 
-                            iure, eos consequatur est deleniti cum id aliquid neque.
-                            </p>
                         </div> <!-- end s-about__content-main -->
 
                         <div class="s-about__content-btn grid-section-split__bottom">
-                            <a href="about.html" class="btn btn--stroke u-fullwidth">More About Me</a>
+                            <a href="./images/Curriculo-DiogoRealles.pdf" class="btn btn--stroke u-fullwidth">Download CV</a>
 
                             <ul class="s-about__social social-list">
                                 <li>
@@ -214,7 +211,7 @@
                     <div class="column xl-12 grid-block grid-section-split">
 
                         <div class="section-header grid-section-split__header">
-                            <div class="text-pretitle">Expertise</div>                           
+                            <div class="text-pretitle">Projects</div>                           
                             <h2 class="text-display-title">
                             My key areas of expertise.
                             </h2>     
@@ -280,7 +277,7 @@
                         </div> <!-- end s-expertise__content-main -->
 
                         <div class="s-expertise__content-btn grid-section-split__bottom">
-                            <a href="services.html" class="btn btn--stroke u-fullwidth">View All Services</a>
+                            <a href="services.html" class="btn btn--stroke u-fullwidth">View All Projects</a>
                         </div> <!-- end s-about__content-btn -->
 
                     </div> <!-- end grid-block-->
@@ -494,7 +491,7 @@
 
                     <div class="grid-full s-journal__content-main grid-list-items">
 
-                        <div class="grid-list-items__item blog-card">
+                        <div data-aos="slide-up" data-aos-duration="2000" class="grid-list-items__item blog-card">
                             <div class="blog-card__header">
                                 <div class="blog-card__cat-links">
                                     <a href="https://www.dreamhost.com/r.cgi?287326">Sponsored</a>
@@ -509,7 +506,7 @@
                                 </p>
                             </div>
                         </div> <!-- end blog-card -->
-                        <div class="grid-list-items__item blog-card">
+                        <div data-aos="slide-up" data-aos-duration="2000" data-aos-delay="200" class="grid-list-items__item blog-card">
                             <div class="blog-card__header">
                                 <div class="blog-card__cat-links">
                                     <a href="blog.html">Productivity</a>
@@ -524,7 +521,7 @@
                                 </p>
                             </div>
                         </div> <!-- end blog-card -->
-                        <div class="grid-list-items__item blog-card">
+                        <div data-aos="slide-up" data-aos-duration="2000" data-aos-delay="400" class="grid-list-items__item blog-card">
                             <div class="blog-card__header">
                                 <div class="blog-card__cat-links">
                                     <a href="blog.html">SEO</a>
@@ -539,7 +536,7 @@
                                 </p>
                             </div>
                         </div> <!-- end blog card -->
-                        <div class="grid-list-items__item blog-card">
+                        <div data-aos="slide-up" data-aos-duration="2000" data-aos-delay="600" class="grid-list-items__item blog-card">
                             <div class="blog-card__header">
                                 <div class="blog-card__cat-links">
                                     <a href="blog.html">Productivity</a>
@@ -647,6 +644,10 @@
 
     <!-- Java Script
     ================================================== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
