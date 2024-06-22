@@ -3202,6 +3202,12 @@ td:last-child {
 	margin-top: var(--vspace-1);
 }
 
+.grid-section-split__projects {
+	grid-column: 9/span 8;
+	grid-row: 1/3;
+	margin-top: var(--vspace-1);
+}
+
 .grid-section-split__bottom {
 	grid-column: 1/span 4;
 	grid-row: 2;
@@ -4095,11 +4101,14 @@ td:last-child {
 .s-about__social {
 	margin-top: var(--vspace-0_75);
 	justify-content: center;
+	gap: 5px;
 }
 
 .s-about__social svg path,
-.s-about__social svg circle {
-	fill: var(--color-3);
+.s-about__social svg circle,
+.s-about__social {
+	height: 10px;
+	color: var(--color-3);
 }
 
 /* ------------------------------------------------------------------- 
@@ -4152,7 +4161,6 @@ td:last-child {
  *
  * ------------------------------------------------------------------- */
 .s-clients {
-	padding-top: var(--vspace-6);
 	padding-bottom: var(--vspace-4);
 	background-color: var(--color-3);
 }
