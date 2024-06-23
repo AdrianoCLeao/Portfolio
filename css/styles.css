@@ -1442,52 +1442,53 @@ blockquote cite a:visited {
 }
 
 .item {
-	flex-shrink: 0;
-	border: 2px solid whitesmoke;
-	border-radius: 1rem;
-	aspect-ratio: 2/3;
-	height: 20vmax;
-	animation-name: scroll;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-direction: alternate;
-
-	&.item:nth-child(1) {
-		background: url('') no-repeat center/cover;
-	}
-
-	&.item:nth-child(2) {
-		background: url('') no-repeat center/cover;
-	}
-
-	&.item:nth-child(3) {
-		background: url('') no-repeat center/cover;
-	}
-
-	&.item:nth-child(4) {
-		background: url('') no-repeat center/cover;
-	}
-
-	&.item:nth-child(5) {
-		background: url('') no-repeat center/cover;
-	}
-
-	&.item:nth-child(6) {
-		background: url('') no-repeat center/cover;
-	}
-
-	&.item:nth-child(7) {
-		background: url('') no-repeat center/cover;
-	}
-
-	&.item:nth-child(8) {
-		background: url('') no-repeat center/cover;
-	}
-
-	&.item:nth-child(9) {
-		background: url('') no-repeat center/cover;
-	}
+    flex-shrink: 0;
+    border: 0px solid whitesmoke;
+    border-radius: 1rem;
+    aspect-ratio: 2 / 3;
+    height: 20vmax;
+    animation-name: scroll;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
 }
+
+.item:nth-child(1) {
+    background: url('../images/cards/birdsense-cover.png') no-repeat center/cover;
+}
+
+.item:nth-child(2) {
+    background: url('../images/cards/galactic-atlas-cover2.png') no-repeat center/cover;
+}
+
+.item:nth-child(3) {
+    background: url('../images/cards/birdsense-cover.png') no-repeat center/cover;
+}
+
+.item:nth-child(4) {
+    background: url('../images/cards/galactic-atlas-cover.webp') no-repeat center/cover;
+}
+
+.item:nth-child(5) {
+    background: url('../images/cards/birdsense-cover.png') no-repeat center/cover;
+}
+
+.item:nth-child(6) {
+    background: url('../images/cards/galactic-atlas-cover2.png') no-repeat center/cover;
+}
+
+.item:nth-child(7) {
+    background: url('../images/cards/birdsense-cover.png') no-repeat center/cover;
+}
+
+.item:nth-child(8) {
+    background: url('../images/cards/galactic-atlas-cover.webp') no-repeat center/cover;
+}
+
+.item:nth-child(9) {
+    background: url('../images/cards/birdsense-cover.png') no-repeat center/cover;
+}
+
 
 .item:nth-child(3n - 2) {
 	animation-duration: 3s;
@@ -3047,6 +3048,9 @@ td:last-child {
 
 .testimonials__slider {
 	padding-bottom: var(--vspace-2_5);
+}
+.testimonials__slider img {
+    border-radius: 10px;
 }
 
 .testimonials__author {

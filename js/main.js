@@ -166,6 +166,37 @@
 
     }; // end ssSwiper
 
+   /*  // Obtenha a imagem pelo seletor de classe
+    const image = document.querySelector('.galactic-atlas');
+        
+    // Caminho das imagens
+    const staticImage = './images/cards/galactic-atlas.png';
+    const animatedGif = './images/cards/galactic-atlas.gif';
+    
+    // Adicione os eventos de mouseover e mouseout
+    image.addEventListener('mouseover', () => {
+        image.src = animatedGif;
+    });
+    
+    image.addEventListener('mouseout', () => {
+        image.src = staticImage;
+    });
+
+    const birdsense_image = document.querySelector('.birdsense');
+        
+    // Caminho das imagens
+    const birdsense_staticImage = './images/cards/birdsense.png';
+    const birdsense_animatedGif = './images/cards/birdsense.gif';
+    
+    // Adicione os eventos de mouseover e mouseout
+    birdsense_image.addEventListener('mouseover', () => {
+        birdsense_image.src = birdsense_animatedGif;
+    });
+    
+    birdsense_image.addEventListener('mouseout', () => {
+        birdsense_image.src = birdsense_staticImage;
+    });
+ */
 
    /* mailchimp form
     * ---------------------------------------------------- */ 
